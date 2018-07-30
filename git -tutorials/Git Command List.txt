@@ -38,6 +38,9 @@
 	git commit -m 'readme.md file edited by Cyberabc'
 	git push origin master
 	
+	# git push origin master forcefully
+	git push origin master -f
+	
 	# git .gitignore file for node modules
 	touch .gitignore && echo "node_modules/" >> .gitignore
 	
